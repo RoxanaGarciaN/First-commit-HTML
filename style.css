@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f0e6;
+    color: #68511c;
+
+}
+
+.container {
+    padding: 3.75em 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.subtitle {
+    color: #c9ac7a;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: url(imagenes/portada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+nav {
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+
+.nav {
+    background-color: #c9ac7a;
+    border-radius: 50px;
+    padding: 15px;
+    display: inline-block;
+    margin: 25px;
+    border: none;
+    transition: 1s;
+    
+}
+
+.nav:hover{
+    background-color:#cebda0;
+    color: black
+    
+}
+
+a{
+    color: #fff;
+}
+
+
+
+header .title {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#muebles {
+    font-size: 3em;
+    color: #fff;
+}
+
+#imaginas {
+    font-size: 2em;
+    color: #fff;
+}
+
+#nosotros {
+    padding: 4em 0 0 0;
+
+}
+
+.text-mision {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-mision {
+    padding: 2em;
+    width: 48%;
+}
+
+.text-nos {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em;
+}
+
+.text-seccion1 {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+
+.products {
+    background: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.products img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.products-ind h3 {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em;
+}
+
+.necesitas {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+
+}
+
+.necesitas h4 span {
+    background-color: #c9ac7a;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 15px;
+    display: inline-block;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+.contacto {
+    width: 80%;
+    height: 30em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div input {
+    font-size: 1.2em;
+    width: 500px;
+    height: 35px;
+    padding: 5px;
+    margin: 8px;
+}
+
+button {
+    background-color: #c9ac7a;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 15px;
+    display: inline-block;
+    justify-content: center;
+    margin: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.container-footer{
+    width: 80%;
+    height: 7em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-footer p{
+    margin: 15px;
+}
+
+footer{
+    background-color: #c9ac7a7d;
+}

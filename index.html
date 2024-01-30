@@ -5,75 +5,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1> Todo en madera </h1>
-             <div>
-                    <span>inicio</span>
-                    <span>nuestro trabajo</span>
-                    <span>contacto</span>
-             </div>
-                <hr />
+
+        <nav>
+            <ul>
+                <li class="nav"><a href="#Inicio">Inicio</a></li>
+                <li class="nav"><a href="#nosotros">Sobre nosotros</a></li>
+                <li class="nav"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+        <section id="Inicio" class="title">
+            <h1 id="muebles"><b>Creacion de muebles de madera.</b></h1>
+            <h2 id="imaginas">Tu imaginas, nosotros creamos.</h2>
+        </section>
+
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-8.79,32.07 C173.99,-48.84 356.77,182.07 505.27,25.17 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill:#f4f0e6;"></path>
+            </svg></div>
+
+
+
     </header>
 
+
+
+
+
     <main>
+        <section class="container">
 
-        <section>
             <article>
-                <h2>Creacion de muebles de madera. </h2>
-                <h3>Tu imaginas, nosotros creamos.</h3>
+                <h3 id="nosotros" class="subtitle">Sobre nosotros</h3>
             </article>
 
-            <img src="melamina.jpeg" />
-            <hr />
+            <article class="text-mision">
+
+                <img src="imagenes/mision.jpg" alt="mision" class="img-mision">
+
+                <div class="text-seccion1">
+
+                    <h3 class="text-nos">Mision</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ullam!Lorem, ipsum dolor
+                        sit
+                        amet
+                        consectetur adipisicing elit. Corrupti dolor cumque doloremque est quasi sint!</p>
+                    <h3 class="text-nos">Vision</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corrupti consectetur
+                        dolore,
+                        accusamus nulla obcaecati.</p>
+                </div>
+                </div>
+            </article>
+            </div>
+
         </section>
-        <section>
-            <article>
+
+        <section class="container">
+            <article class="subtitle">
                 <h3>Somos expertos en:</h3>
-                <ul>
-                    <li>Muebles retractiles</li>
-                    <li>Closets</li>
-                    <li>Repisas</li>
-                    <li>Libreros</li>
-                </ul>
-                Entregas con instructivo, listo para que instales a tu gusto...
             </article>
+            <article class="products">
 
-            <hr />
-
-            <article>
-                <h3>Solo necesitas:</h3>
-                <ol>
-                    <li>Tener un diseño.</li>
-                    <li>Contar con las medidas requeridas.</li>
-                    <li>Solicitar tu cotizacion.</li>
-                </ol>
+                <div class="products-ind">
+                    <img src="imagenes/escritorio.jpg" alt="Escritorios">
+                    <h3>Escritorios</h3>
+                </div>
+                <div class="products-ind">
+                    <img src="imagenes/librero 2.jpg" alt="Libreros">
+                    <h3>Libreros</h3>
+                </div>
             </article>
+            <article class="products">
 
-            <hr />
+                <div class="products-ind">
+                    <img src="imagenes/muebles.jpg" alt="Muebles">
+                    <h3>Muebles</h3>
+                </div>
+                <div class="products-ind">
+                    <img src="imagenes/melamina.jpeg" alt="Repisas">
+                    <h3>Repisas</h3>
+                </div>
+            </article>
+            <div class="products-ind">
+                <h3>Entregas con instructivo, listo para que instales a tu gusto...</h3>
+            </div>
+
+
         </section>
-        <section>
+
+
+
+        <section class="container">
             <article>
-                <h3>Que material elegir</h3>
+
+                <div class="subtitle">
+                    <h3>Solo necesitas:</h3>
+                </div>
+            </article>
+            <article class="necesitas">
+
                 <div>
-
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate in repellat maiores pariatur
-                        repudiandae voluptas quisquam similique veniam.
-                        Minus, impedit cumque eum quas deserunt dolore quae doloremque ipsum voluptates harum?</p>
-                    <p>Selecciona el que mejor se ajuste a tu espacio</p>
-
+                    <h4><span>1</span>Tener un diseño.</h4>
+                    <h4><span>2</span>Contar con las medidas requeridas.</h4>
+                    <h4><span>3</span>Solicitar tu cotizacion.</h4>
                 </div>
             </article>
         </section>
-        <hr />
+        <section class="contacto" id="contacto">
+            <div>
+                <h4 class="subtitle">Dejanos tus datos y un asesor se comunicara</h4>
+                <hr />
+            </div>
+
+            <form>
+                <div>
+                    <input type="text" name="Nombre" placeholder="Nombre" />
+                </div>
+                <div>
+                    <input type="text" name="Apellido" placeholder="Apellido">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="number" name="numero telefonico" placeholder="Numero telefonico">
+                </div>
+                <div>
+                    <button>ENVIAR</button>
+                </div>
+
+            </form>
+
+            <hr />
+        </section>
+
+
     </main>
 
     <Footer>
-        <p>Contacto</p>
-        <a href="contacto.html">"Contacto"</a>
-
+        <div class="container-footer">
+            <p>Siguenos en enuestras cuentas</p>
+            <a class="nav" href="https://facebook.com">"facebook"</a>
+            <p>Derechos de autor © 2024 Mi Primer Sitio Web.</p>
+        </div>
     </Footer>
 </body>
 
